@@ -79,7 +79,7 @@ body {
   #music {
     position: absolute;
     bottom: 505px;
-    left: 800px;
+    left: 750px;
     z-index: 1000;
     opacity: 0.5;
   }
