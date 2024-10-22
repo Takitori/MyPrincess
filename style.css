@@ -169,27 +169,20 @@ img {
     background-position: -49px -35px;
   }
   
- @media (max-width: 600px) {
-  #music {
-    bottom: 10px; /* Adjust bottom for smaller screens */
-    left: 50%; /* Ensure it's centered horizontally */
-    transform: translateX(-50%); /* Ensure correct centering */
+/* Mobile adjustments */
+@media (max-width: 600px) {
+  .container {
+    margin: 50px auto; /* Adjust margin for smaller screens */
+    padding: 15px; /* Adjust padding for mobile */
   }
-}
 
-@media (max-width: 500px) {
-  #music {
-    bottom: 10px; /* Adjust bottom for very small screens */
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Ensure correct centering */
-    z-index: 10000; /* Ensure it's visible on top */
+  img {
+    padding-left: 30px; /* Reduce left padding to shift image left on mobile */
+    padding-right: 50px; /* Adjust right padding accordingly */
   }
 
   #music audio {
-    width: 100%; /* Ensure the audio player is responsive */
-    max-width: 250px; /* Slightly smaller for extra small screens */
+    width: revert; /* Reset the width for smaller screens */
   }
-}
-}
   
 >>>>>>> a7678066c3c547083bc044ed915a4ed2a5a5502b
