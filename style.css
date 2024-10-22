@@ -169,30 +169,27 @@ img {
     background-position: -49px -35px;
   }
   
-  /* Music player */
+ @media (max-width: 600px) {
   #music {
-    position: absolute;
-    bottom: 505px;
-    left: 750px;
-    z-index: 1000;
-    opacity: 0.5;
+    bottom: 10px; /* Adjust bottom for smaller screens */
+    left: 50%; /* Ensure it's centered horizontally */
+    transform: translateX(-50%); /* Ensure correct centering */
   }
-  
->>>>>>> a7678066c3c547083bc044ed915a4ed2a5a5502b
-  #music audio {
-    width: 100%; /* Ensure full width on mobile */
-  }
-<<<<<<< HEAD
 }
-=======
+
 @media (max-width: 500px) {
-    #music {
-        position: relative;
-        bottom: 90px;
-        left: 260px;
-        z-index: 1000;
-        opacity: 0.5;
-    }
+  #music {
+    bottom: 10px; /* Adjust bottom for very small screens */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Ensure correct centering */
+    z-index: 10000; /* Ensure it's visible on top */
+  }
+
+  #music audio {
+    width: 100%; /* Ensure the audio player is responsive */
+    max-width: 250px; /* Slightly smaller for extra small screens */
+  }
+}
 }
   
 >>>>>>> a7678066c3c547083bc044ed915a4ed2a5a5502b
