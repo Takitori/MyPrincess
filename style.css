@@ -185,11 +185,14 @@ img {
 <<<<<<< HEAD
 }
 =======
-  
-  @media (max-width: 992px) {
-    #music audio {
-      width: 100%;
+@media (max-width: 500px) {
+    #music {
+        position: relative;
+        bottom: 90px;
+        left: 260px;
+        z-index: 1000;
+        opacity: 0.5;
     }
-  }
+}
   
 >>>>>>> a7678066c3c547083bc044ed915a4ed2a5a5502b
