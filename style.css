@@ -90,7 +90,7 @@ img {
 #music {
   position: relative;
   bottom: 100px; /* Align at the bottom of the container */
-  left: 87%;
+  left: 8787%;
   transform: translateX(-50%); /* Center it horizontally */
   z-index: 1000;
   opacity: 0.7; /* Increased opacity for visibility */
